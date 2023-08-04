@@ -1,7 +1,7 @@
 #!/bin/bash
-mkdir data_processing
-cd preprocessing_scripts
+mkdir /content/introduction2NLP-Math-AR/data_processing
+cd /content/introduction2NLP-Math-AR/preprocessing_scripts
 git clone https://github.com/AnReu/ARQMathCode.git
-python3 get_clean_json.py
-python3 get_pretraining_data_base.py
-python3 get_pretraining_data_separated.py
+python3 /content/introduction2NLP-Math-AR/preprocessing_scripts/get_clean_json.py
+python3 /content/introduction2NLP-Math-AR/preprocessing_scripts/get_pretraining_data_base.py
+python3 /content/introduction2NLP-Math-AR/preprocessing_scripts/get_pretraining_data_separated.py
