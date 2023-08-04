@@ -7,7 +7,7 @@ import json
 
 data_path = '../raw_data'
 out_dir = '../data_processing'
-reader = DataReaderRecord(data_path, version='1.2')
+reader = DataReaderRecord(data_path, version='1.3')
 answers = defaultdict(list)
 
 
